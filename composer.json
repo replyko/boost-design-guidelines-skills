@@ -1,0 +1,17 @@
+{
+    "name": "replyko/boost-guidelines",
+    "description": "Laravel Boost guidelines and agent skills for Replyko marketing and app repositories.",
+    "type": "library",
+    "license": "proprietary",
+    "keywords": [
+        "replyko",
+        "laravel",
+        "boost",
+        "ai",
+        "guidelines",
+        "skills"
+    ],
+    "require": {
+        "php": "^8.2 || ^8.3 || ^8.4 || ^8.5"
+    }
+}
