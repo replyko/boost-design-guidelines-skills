@@ -1,8 +1,9 @@
 {
-    "name": "replyko/boost-guidelines",
+    "name": "replyko/boost-design-guidelines-skills",
     "description": "Laravel Boost guidelines and agent skills for Replyko marketing and app repositories.",
     "type": "library",
     "license": "proprietary",
+    "homepage": "https://github.com/replyko/boost-design-guidelines-skills",
     "keywords": [
         "replyko",
         "laravel",
@@ -11,6 +12,10 @@
         "guidelines",
         "skills"
     ],
+    "support": {
+        "source": "https://github.com/replyko/boost-design-guidelines-skills",
+        "issues": "https://github.com/replyko/boost-design-guidelines-skills/issues"
+    },
     "require": {
         "php": "^8.2 || ^8.3 || ^8.4 || ^8.5"
     }
