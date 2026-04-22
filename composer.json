@@ -16,7 +16,20 @@
         "source": "https://github.com/replyko/boost-design-guidelines-skills",
         "issues": "https://github.com/replyko/boost-design-guidelines-skills/issues"
     },
+    "autoload": {
+        "psr-4": {
+            "Replyko\\BoostDesignGuidelinesSkills\\": "src/"
+        }
+    },
     "require": {
-        "php": "^8.2 || ^8.3 || ^8.4 || ^8.5"
+        "php": "^8.2 || ^8.3 || ^8.4 || ^8.5",
+        "illuminate/support": "^12.0 || ^13.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Replyko\\BoostDesignGuidelinesSkills\\ReplykoBoostSkillsServiceProvider"
+            ]
+        }
     }
 }

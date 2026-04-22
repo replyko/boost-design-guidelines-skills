@@ -62,13 +62,17 @@ composer require --dev replyko/boost-design-guidelines-skills:^0.0.1
 Run:
 
 ```bash
+composer dump-autoload
+php artisan package:discover --ansi
 php artisan boost:update
 ```
 
 or:
 
 ```bash
+composer dump-autoload
+php artisan package:discover --ansi
 php artisan boost:install
 ```
 
-Laravel Boost should then discover the package resources from `resources/boost/...`.
+Laravel should now discover the package provider, and Laravel Boost should then install the package resources from `resources/boost/...` into the target project's AI files.
